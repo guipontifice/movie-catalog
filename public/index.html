@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/assets/css/style.css">
+</head>
+<body>
+  <main>
+    <h2>Popular Movies</h2>
+    <div class="input-container">
+      <input type="text" name="movie-name" id="movie-name" placeholder="Search for a movie...">
+      <img src="/src/assets/img/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
+    </div>
+    <div class="showOnlyFavorites">
+      <input type="checkbox" name="onlyFavorites" class="show-only-favorites" id="onlyFavorites">
+      <label for="onlyFavorites">Only show my favorite movies</label>
+    </div>
+    <div class="movies"></div>
+
+<script src="/public/assets/js/bundle.js" type="module"></script>
+  </main>
+</body>
+</html>
